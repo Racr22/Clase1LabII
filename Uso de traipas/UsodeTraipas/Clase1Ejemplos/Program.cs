@@ -9,6 +9,12 @@ namespace Clase1Ejemplos
     {
         static void Main(string[] args)
         {
+            Console.Title = "Uso de traipars";
+            string dato;
+            Console.WriteLine("Ingrese su edad");
+            dato = Console.ReadLine();
+            int numero;
+            numero = int.Parse(dato);
         }
     }
 }
